@@ -1,0 +1,14 @@
+--- bincode-0.8.0/Cargo.toml	2017-05-02T14:59:57+00:00
++++ bincode-0.8.0/Cargo.toml	2019-06-11T20:16:20.371067+00:00
+@@ -13,8 +13,8 @@
+ [dependencies]
+ byteorder = "1.0.0"
+ num-traits = "0.1.32"
+-serde = "1.*.*"
++serde = "1"
+ 
+ [dev-dependencies]
+-serde_bytes = "0.10.*"
+-serde_derive = "1.*.*"
++serde_bytes = "0.11"
++serde_derive = "1"
